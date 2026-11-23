@@ -108,4 +108,31 @@ Advanced-House-Price-Prediction/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username
+git clone https://github.com/Sumant1708/Advanced-House-Price-Prediction.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Advanced-House-Price-Prediction
+```
+
+3. Install dependencies:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn statsmodels xgboost catboost kagglehub python-dotenv jupyter
+```
+
+4. Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+5. Open the notebook and execute the cells sequentially.
+
+**Dataset Access:** The notebook attempts to download the competition dataset through KaggleHub. Alternatively, place `train.csv` inside the `data/` directory. Kaggle API access may require competition access and authentication.
+
+## Project Objective
+
+The project aims to strengthen practical understanding of regression modeling, feature engineering, regularization, statistical diagnostics, ensemble methods, and model selection through a real-world housing price prediction problem.
